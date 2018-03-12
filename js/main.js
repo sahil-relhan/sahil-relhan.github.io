@@ -1,5 +1,48 @@
 jQuery(function($) {'use strict',
 
+	//popup
+
+	$('#techsurge-btn').click(function(){
+		$()
+		$('#popup1').show(300);
+	})
+	$('#mridang-btn').click(function(){
+		$('#popup2').show(300);
+	})
+
+$('#sports-btn').click(function(){
+		$('#popup3').show(300);
+	})
+
+$('#close1').click(function(){
+		$('#popup1').hide(300);
+	})
+$('#close2').click(function(){
+		$('#popup2').hide(300);
+	})
+$('#close3').click(function(){
+		$('#popup3').hide(300);
+	})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	//Countdown js
 	 $("#countdown").countdown({
 			date: "10 july 2014 12:00:00",
