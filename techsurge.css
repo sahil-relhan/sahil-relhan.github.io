@@ -1,0 +1,95 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse {
+  background-color: #2c3e50;
+}
+
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 92.5%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('background-2462431.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 80;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.my-container p {
+    z-index: 2;
+    position: relative;
+  text-align:left;
+} 
+.cont2{
+ background-color:#98ced4;
+    }
+.cont3{
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTui3rfyZlIcYNRGT7uNwv4zbtRpjzwKat6dMOBAqI9CeZkQ2JB'); 
+}
+.my-container1:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 72.5%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('background-2462431.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 80;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.my-container1 p {
+    z-index: 2;
+    position: relative;
+  text-align:left;
+} 
+.my-container2:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 64.5%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('background-2462431.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 80;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.my-container2 p {
+    z-index: 2;
+    position: relative;
+  text-align:left;
+} 
