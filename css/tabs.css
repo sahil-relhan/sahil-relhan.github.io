@@ -1,0 +1,38 @@
+.anchor { 
+color:white;
+	}
+.tab {
+	/*background-color: #black;
+	border: 1px solid blue;
+	width: 300px;
+	text-align: center;*/
+    transition-timing-function: ease-out;
+    transition: 0.25s;
+	//display: inline;
+	display: flex;
+    justify-content: space-around;
+	
+	
+	
+}
+#contents{
+	opacity:0.6;
+}
+
+#tb1 {
+	    background-color: #33888f !important;
+
+	color: white;
+	text-align: center;
+	opacity:1;
+	font-size:30px;
+	
+}
+ #tb2 , #tb3{
+	     background-color: #33888f !important;
+font-size:30px;
+	display: none;
+	color: white;
+    text-align: center;
+	opacity:1;
+}
