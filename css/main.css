@@ -61,7 +61,41 @@ h2 {
   outline: none;
 }
 
+.popup{
+  display:none;
+  position: fixed;
+  width: 80%;
+  height:70%;
+  background-color: black;
+  overflow-y:  auto;
+  z-index: 10000;
+  top:20%;
+  margin-left: 10%;
+}
+#popup-heading{
+  font-size: 32px;
+  padding:10px;
 
+}
+#popup-content{
+  width:60%;
+  padding-left: 10%;
+}
+.popup div img{
+  float:right;
+  width: 40%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+#close1,#close2,#close3{
+  padding: 5px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: black;
+  border:none;
+}
 /*************************
 *******Header CSS******
 **************************/
