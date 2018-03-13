@@ -3,7 +3,7 @@ jQuery(function($) {'use strict',
 	//popup
 
 	$('#techsurge-btn').click(function(){
-		$()
+		
 		$('#popup1').show(300);
 	})
 	$('#mridang-btn').click(function(){
@@ -25,9 +25,10 @@ $('#close3').click(function(){
 	})
 
 
-
-
-
+$("#tab1,#tab2,#tab3").click(function () {
+    $("#tab1,#tab2,#tab3").removeClass("active-tab");
+    $(this).addClass("active-tab");  
+    });
 
 
 
