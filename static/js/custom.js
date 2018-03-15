@@ -35,6 +35,12 @@ initScrollAnimation();
 
 
     //Event Type selection-
+    var width = $(window).width(); 
+
+
+
+
+
     var speed = 1000;
     $('.technical').on('click', function(){
         $('.form-wrapper div.showing:not(div.tech_events)').slideUp(speed);
@@ -47,6 +53,15 @@ initScrollAnimation();
 
         $('#technical').toggleClass('tech-click');
         $('#technical span').toggleClass('tech-click1');
+
+        // if( width <= 768 ) {
+        //     $('.event_pc #non-technical').hide();
+        //     $('.event_pc #cultural').hide();
+        //     $('.event_mb #non-technical').show();
+        //     $('.event_mb #cultural').hide()
+        // }
+
+
     });
 
     $('.non-technical').on('click', function(){
@@ -60,6 +75,9 @@ initScrollAnimation();
 
         $('#non-technical').toggleClass('nontech-click');
         $('#non-technical span').toggleClass('nontech-click1');
+
+
+
     });
 
     $('.cultural').on('click', function(){
