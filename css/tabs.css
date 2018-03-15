@@ -25,7 +25,7 @@ div.tab-div:hover{
 
 }
 h4:hover{
-	color: black !important;
+	color: black ;
 }
 .active-tab h4{
 		background-color: white !important;

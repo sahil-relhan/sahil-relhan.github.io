@@ -60,7 +60,7 @@ h2 {
   border:1px solid #fff;
   outline: none;
 }
-
+/*
 .popup{
   display:none;
   position: fixed;
@@ -71,23 +71,23 @@ h2 {
   z-index: 10000;
   top:20%;
   margin-left: 10%;
-}
-#popup-heading{
+}*/
+/*#popup-heading{
   font-size: 32px;
   padding:10px;
 
-}
-#popup-content{
+}*/
+/*#popup-content{
   width:60%;
   padding-left: 10%;
-}
+}*//*
 .popup div img{
   float:right;
   width: 40%;
   padding-right: 10%;
   padding-top: 5%;
   padding-left: 5%;
-}
+}*/
 #close1,#close2,#close3{
   padding: 5px;
   position: fixed;
@@ -436,7 +436,8 @@ h2 {
   background-color: #33888F;
   background-image: url("../images/performar-bg.jpg");
   background-position: 50% 0;
-  background-size: contain;
+  background-size: cover;
+  /*background-attachment: fixed;*/
   position: relative;
   background-repeat: no-repeat;
 }
