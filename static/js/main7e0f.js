@@ -240,7 +240,7 @@ var ModalEffects = {
                     title = $('#' + el.getAttribute('data-modal')).data('title');
                     vurl = $('#' + el.getAttribute('data-modal')).data('vurl');
                     tmVirtualPage('lecture/' + vurl, title);
-                    document.title = 'Events @ MAIT';
+                    document.title = title + ' | Degordian Academy';
                     classie.add(modal, 'md-show');
                     overlay.removeEventListener('click', removeModalHandler);
                     overlay.addEventListener('click', removeModalHandler);
@@ -555,11 +555,11 @@ var main = (function ($) {
                 tmVirtualPage('/signup/', 'Signup');
                 document.title = 'TnM 2018 | Events';
             }, {offset: 0});
-            $('#map').waypoint(function (direction) {
+            $('#location-wrap').waypoint(function (direction) {
                 tmVirtualPage('/signup/', 'Signup');
                 document.title = 'TnM 2018 | Location';
             }, {offset: 0});
-            $('#sponsor').waypoint(function (direction) {
+            $('#sponsors-wrap').waypoint(function (direction) {
                 tmVirtualPage('/signup/', 'Signup');
                 document.title = 'TnM 2018 | Sponsors';
             }, {offset: 0});
@@ -567,15 +567,15 @@ var main = (function ($) {
                 tmVirtualPage('/signup/', 'Signup');
                 document.title = 'TnM 2018 | Timeline';
             }, {offset: 0});
-            $('#twitter').waypoint(function (direction) {
+            $('#faq').waypoint(function (direction) {
                 tmVirtualPage('/signup/', 'Signup');
-                document.title = 'TnM 2018 | Gallery';
+                document.title = 'TnM 2018 | FAQ';
             }, {offset: 0});
             // $('#gallery_wrapper').waypoint(function (direction) {
             //     tmVirtualPage('/signup/', 'Signup');
             //     document.title = 'TnM 2018 | Gallery';
             // }, {offset: 0});
-            $('#about').waypoint(function (direction) {
+            $('#about-mait').waypoint(function (direction) {
                 tmVirtualPage('/signup/', 'Signup');
                 document.title = 'TnM 2018 | About';
             }, {offset: 0});
@@ -585,7 +585,40 @@ var main = (function ($) {
     });
     return {main: main.init()};
 }($));
+var windowHeight = $(window).height();
+var contentString = 'aaa';
+var infowindow;
+var markers = [];
+var iterator = 0;
+var marker;
+var map;
+var directionsDisplay;
+var coord;
+var latlng;
+var directionPanelWidth;
+var mapWidth;
+var display;
+var latLng2;
+var image;
+var mrk = [];
+var self;
+var MY_MAPTYPE_ID = 'degordian';
 
+
+// function initMap() {
+//         var uluru = {lat: 28.719614, lng: 77.066186};
+//         var map = new google.maps.Map(document.getElementById('myMap'), {
+//           zoom: 16,
+//           center: uluru
+//         });
+//         var marker = new google.maps.Marker({
+//           position: uluru,
+//           map: map
+//         });
+//       }
+
+
+// initMap();
 function buildUrl(url, parameters) {
     var qs = "";
     for (var key in parameters) {

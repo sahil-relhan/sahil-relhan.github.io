@@ -674,7 +674,7 @@ pre code {
     max-height: 340px;
     overflow-y: scroll
 }
-
+/*
 .container {
     padding-right: 20px;
     padding-left: 20px;
@@ -699,7 +699,7 @@ pre code {
 .container:after {
     clear: both
 }
-
+*/
 @media (min-width: 768px) {
     .container {
         width: 750px
@@ -3309,7 +3309,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     right: 0;
     left: auto
 }
-
+/*
 .dropup .caret, .navbar-fixed-bottom .dropdown .caret {
     border-top: 0;
     border-bottom: 4px solid;
@@ -3328,7 +3328,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
         left: auto
     }
 }
-
+*/
 .btn-group, .btn-group-vertical {
     position: relative;
     display: inline-block;
@@ -4751,7 +4751,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
     position: relative;
     top: -1px
 }
-
+/*
 a.badge:hover, a.badge:focus {
     color: #ffffff;
     text-decoration: none;
@@ -4762,7 +4762,7 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
     color: #428bca;
     background-color: #ffffff
 }
-
+*/
 .nav-pills > li > a > .badge {
     margin-left: 3px
 }
@@ -4776,12 +4776,12 @@ a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
     color: inherit;
     background-color: #eeeeee
 }
-
+/*
 .jumbotron h1, .jumbotron .h1 {
     line-height: 1;
     color: inherit
 }
-
+*/
 .jumbotron p {
     line-height: 1.4
 }
@@ -8252,7 +8252,7 @@ background: linear-gradient(to right, #FFEEEE,  #EEE8AA);*/
 .form-wrapper {
     position: relative;
     padding: 30px 0 30px;
-    /*background: url('../img/Optimized-output.jpg');*/
+    background: url('../img/Optimized-output.jpg');
 }
 
 @media all and (max-width: 767px) {
@@ -8311,7 +8311,7 @@ background: linear-gradient(to right, #FFEEEE,  #EEE8AA);*/
     top: 5px;
     width: 9px;
     height: 35px;
-    /*background: url("../img/sprite.png") no-repeat -9px -68px;*/
+    background: url("../img/sprite.png") no-repeat -9px -68px;
     content: ""
 }
 
