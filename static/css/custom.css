@@ -864,3 +864,21 @@ footer .social a:hover {
   }
 
 }
+
+#sponsor .row .row .col-sm-3 img {
+  width: 245px;
+  height: 100px;
+}
+#sponsor .row .row .col-sm-4 img {
+  width: 245px;
+  height: 160px;
+}
+
+#sponsor .title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.day-t:hover {
+  color: white;
+}
