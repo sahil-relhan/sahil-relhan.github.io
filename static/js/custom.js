@@ -200,8 +200,8 @@ function initScrollAnimation() {
     if($('#faq').length) {
         sr.reveal('#faq .note', scrollGalleryIn, 40)
     }
-    if($('#sponsors-wrap').length) {
-        sr.reveal('#sponsors-wrap .note', scrollGalleryIn, 40)
+    if($('#sponsor img').length) {
+        sr.reveal('#sponsor img', scrollGalleryIn, 40)
     }
 
     // if ($('#location-wrap').length) {
