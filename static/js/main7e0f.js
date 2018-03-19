@@ -240,7 +240,7 @@ var ModalEffects = {
                     title = $('#' + el.getAttribute('data-modal')).data('title');
                     vurl = $('#' + el.getAttribute('data-modal')).data('vurl');
                     tmVirtualPage('lecture/' + vurl, title);
-                    document.title = title + ' | Degordian Academy';
+                    document.title = title + ' | MAIT';
                     classie.add(modal, 'md-show');
                     overlay.removeEventListener('click', removeModalHandler);
                     overlay.addEventListener('click', removeModalHandler);
@@ -256,7 +256,7 @@ var ModalEffects = {
                     removeModalHandler();
                     if ($('#thanks').val() == 1) {
                         tmEvent('Buttons', 'Close virtual page', 'Signup thank-you');
-                        document.title = 'Degordian Academy';
+                        document.title = 'MAIT';
                         $('#thanks').val(0);
                     }
                     else {
